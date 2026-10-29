@@ -1,0 +1,91 @@
+body { 
+font-family: Arial, sans-serif; 
+background-image: url('iphone.jpg'); 
+ background-size: cover; 
+ background-position: center; 
+ background-repeat: no-repeat;
+display: flex;
+justify-content: center; 
+align-items: center;     
+height: 100vh;
+margin: 0;
+width: 100vw;
+}
+.form-box { background-color: rgba(162, 190, 216, 0.95);
+ padding: 30px; 
+ border-radius: 8px; 
+ width: 420px; 
+ box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4); 
+ box-sizing: border-box; }
+.form-box {
+    background-color: #a2bed8;
+    padding: 30px;
+    border-radius: 5px;
+    width: 420px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #e67e22;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.row {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+label {
+    width: 90px;
+    font-weight: bold;
+    color: #2c3e50;
+}
+input[type="text"],
+input[type="number"],
+select {
+    flex: 1;
+    padding: 6px;
+    border: 1px solid #7f8c8d;
+    border-radius: 3px;
+    background-color: #fff;
+}
+input[type="file"] {
+    flex: 1;
+}
+.btn-submit {
+    background-color: #f1f2f6;
+    border: 1px solid #7f8c8d;
+    padding: 5px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.btn-submit:hover {
+    background-color: #dfe4ea;
+}
+.navbar {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 25px; 
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffffff; 
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #069341; 
+}
